@@ -1,0 +1,119 @@
+.index-body
+{
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    /* above is a shortcut for
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;**/
+    padding:0;
+    margin: 0;
+    background-color: beige
+}
+
+
+.index-container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/* Header **/
+.index-header{
+    background: rgba(58, 59, 133, 0.61);
+    color:white;
+    padding-top: 10px;
+    min-height: 30px;
+    border-bottom:gray 3px solid;
+}
+
+/*styling the header hyperlink**/
+.index-header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*setting the header contents**/
+.index-header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.index-header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px; /*shortcut to set padding top right bottom left**/
+}
+
+/*setting up the top-left corner welcome**/
+.index-header #top-left-welcome{
+    float: left;
+}
+.index-header #top-left-welcome h1{
+    margin: 0;
+}
+
+/*setting up the navigation bar**/
+.index-nav{
+    float:right;
+    margin-top: 10px;
+}
+
+
+
+.index-header a:hover{
+    color:rgb(98, 104, 109);
+    font-weight: bold;
+
+}
+
+/*setting up the title section**/
+.title-section{
+    min-height: 400px;
+    width: 100%;
+    background: url('../../images/title-background.jpg') no-repeat 0;
+    text-align: center;
+    color:rgb(88, 88, 88);
+
+}
+
+.title-quote{
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: rgba(255, 255, 255, 0.356);
+    margin-top:40px;
+    margin-bottom: 20px;
+    padding-top:5px;
+    padding-bottom:60px;
+    border-radius: 10px;
+}
+
+.index-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.index-title-quote{
+    font-size:15px;
+    font-weight: 500;
+    line-height: 0.5;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+#content-color-blocks{
+    float: left;
+}
+
+.img-resize{
+    height:20%;
+    width :32%;
+}
+

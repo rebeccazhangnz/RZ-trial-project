@@ -1,2 +1,1 @@
-# RZ-trial-project
-Trial repository to practice Git Workflow
+# rebecca-zhang.github.io
